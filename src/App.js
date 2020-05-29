@@ -18,8 +18,8 @@ function App() {
 	};
 
 	const removeItem = item => {
-		setCart(cart.filter((i) => i.id !== item.id))
-	}
+		setCart(cart.filter((i) => i.id !== item.id));
+	  };
 
 	return (
 		<div className="App">
